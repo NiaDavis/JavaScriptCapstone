@@ -1,0 +1,81 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Header */
+header {
+  background-color: #000;
+  color: #fff;
+  width: 100%;
+}
+
+header h1 {
+  margin: 0;
+  padding: 1rem 0;
+}
+
+/* Navbar */
+.navbar-dark .navbar-nav .nav-link {
+  color: #fff;
+}
+
+/* Main Content */
+main {
+  flex: 1;
+  padding: 2rem 0;
+}
+
+main .container {
+  max-width: 1140px;
+}
+
+article {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 1rem;
+}
+
+aside {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 1rem;
+}
+
+/* Comment Section */
+.comment-section {
+  margin-top: 2rem;
+}
+
+.comment-list li {
+  border-bottom: 1px solid #ddd;
+  padding: 0.5rem 0;
+}
+
+.comment-author {
+  font-weight: bold;
+}
+
+.comment-timestamp {
+  font-size: 0.8rem;
+  color: #888;
+}
+
+/* Footer */
+footer {
+  background-color: #000;
+  color: #fff;
+  width: 100%;
+  text-align: center;
+  padding: 1rem 0;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
